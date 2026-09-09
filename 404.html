@@ -1,7 +1,80 @@
-<html>
-<head><title>404 Not Found</title></head>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>页面不存在 - 安忆软件库</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex; align-items: center; justify-content: center;
+      font-family: "PingFang SC", "HarmonyOS Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+      color: #e8eefb;
+      background:
+        radial-gradient(800px 400px at 85% -10%, rgba(143, 123, 255, .18), transparent 60%),
+        radial-gradient(700px 400px at -10% 30%, rgba(77, 216, 255, .14), transparent 55%),
+        linear-gradient(180deg, #050d1f 0%, #0a1e3d 40%, #0e3a5c 100%);
+      text-align: center;
+      padding: 24px;
+    }
+    .box { max-width: 520px; }
+    .code {
+      font-size: 110px; font-weight: 800; line-height: 1;
+      background: linear-gradient(92deg, #7ee7ff, #5b9dff 45%, #c39bff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 6px 24px rgba(77, 200, 255, .3));
+      animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    .msg { font-size: 17px; color: #c3d1e6; margin: 14px 0 6px; font-weight: 600; }
+    .sub { font-size: 13px; color: #7d8fab; margin-bottom: 26px; line-height: 1.8; }
+    .btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 12px 26px; border-radius: 40px;
+      text-decoration: none; font-size: 15px; font-weight: 700;
+      cursor: pointer; border: none; font-family: inherit;
+      transition: transform .2s ease, box-shadow .25s ease;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn:active { transform: scale(.96); }
+    .btn-primary {
+      background: linear-gradient(135deg, #ff8a5c, #ff5d73 60%, #ff4f9a);
+      color: #fff;
+      box-shadow: 0 10px 26px rgba(255, 95, 115, .35);
+    }
+    .btn-ghost {
+      background: rgba(77, 216, 255, .14);
+      border: 1px solid rgba(120, 210, 255, .45);
+      color: #d6e6f7;
+    }
+    .links { margin-top: 26px; font-size: 12.5px; color: #7d8fab; line-height: 2.2; }
+    .links a { color: #9fd8ff; text-decoration: none; margin: 0 6px; }
+    .links a:hover { text-decoration: underline; }
+  </style>
+</head>
+
 <body>
-<center><h1>404 Not Found</h1></center>
-<hr><center>nginx</center>
+  <div class="box">
+    <div class="code">404</div>
+    <p class="msg">😵 页面跑到深海里去了…</p>
+    <p class="sub">你访问的链接不存在或已被更新<br>回到首页即可找到最新资源入口</p>
+    <div class="btns">
+      <a class="btn btn-primary" href="/">🏠 返回安忆软件库首页</a>
+      <a class="btn btn-ghost" href="https://lotand.lanzoul.com/b014cxfde" target="_blank" rel="noopener">📲 下载官方 APP</a>
+    </div>
+    <div class="links">
+      常用直达：
+      <a href="https://link3.cc/ayrjk666" target="_blank" rel="noopener">游戏资源库</a>·
+      <a href="https://www.kdocs.cn/l/cnKzCPAqgWXe" target="_blank" rel="noopener">资源合集</a>·
+      <a href="https://www.kdocs.cn/l/cjIDM1DVrXmP" target="_blank" rel="noopener">QQ 频道</a>
+    </div>
+  </div>
 </body>
+
 </html>
